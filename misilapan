@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misipedia: Alur Cerita Aizad</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* White background */
+            color: #333; /* Dark text for contrast */
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-image: url(image/hero.png); /* Replace with your hero image URL */
+            background-size: cover;
+            background-position: center;
+            color: white; /* White text */
+            padding: 25px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 15px 0;
+        }
+        nav a {
+            margin: 0 20px;
+            color: white; /* White links */
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            text-decoration: underline;
+            color: #ffe0b2; /* Light orange on hover */
+        }
+        h1 {
+            font-size: 2.5em; /* Larger title */
+            margin: 0; /* Remove default margin */
+        }
+        h3 {
+            font-size: 1.5em; /* Subtitle size */
+            margin: 10px 0; /* Space around subtitle */
+        }
+        .story {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            text-align: justify; /* Justify text for better readability */
+        }
+        .story img {
+            display: block; /* Center image */
+            margin: 0 auto 20px; /* Center image and add space below */
+            max-width: 100%; /* Responsive image */
+            height: auto; /* Maintain aspect ratio */
+        }
+        .story h2 {
+            text-align: center; /* Center the story title */
+            color: #ff5722; /* Orange color for the title */
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                margin: 5px 0;
+            }
+            .story {
+                padding: 15px; /* Adjust padding for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MISIPEDIA</h1>
+    <h3>Semua tentang MISI!</h3>
+    <nav>
+        <a href="#misi-characters">Characters</a>
+        <a href="#misi-worlds">Worlds</a>
+        <a href="#misi-stories">Stories</a>
+        <a href="#misi-fan-art">Fan Art</a>
+    </nav>
+</header>
+
+<section class="story">
+    <img src="image/misilapan.png" alt="Misi 8A"> <!-- Replace with your image URL -->
+    <h2><span class="highlight">Alur</span> Cerita Aizad</h2>
+    <p>Aizad merupakan seorang remaja berusia 15 tahun yang dilahirkan dalam keluarga yang berada. Hidupnya dikelilingi dengan hiburan dan permainan. Aizad merasakan pelajaran sesuatu yang tidak penting ekoran ibubapanya juga tidak menitikberatkan perkara tersebut hinggalah suatu hari ibunya menyita segala bentuk hiburan dan gajet milik Aizad dengan syarat Aizad harus mendapatkan 1A yang bagi Aizad mustahil. Aizad cuba hidup tanpa gajet namun dia akhirnya tidak mampu hidup tanpa gajet dan berusaha untuk mendapatkan semula barang-barangnya.</p>
+    <p>Aizad kemudiannya terserempak dengan seorang pelajar berkaca mata yang merupakan pelajar terbaik. Aizad meminta Zahid untuk memberikannya tunjuk ajar tetapi pada mulanya Zahid menolak namun akhirnya bersetuju untuk mengajar Aizad meskipun niat Aizad untuk belajar hanyalah untuk mendapatkan barang-barangannya kembali. Semasa belajar bersama Aizad, Zahid menyedari sikap Aizad yang menyebabkan dirinya kurang cemerlang dalam peperiksaan. Aizad beransur-ansur menunjukkan minatnya untuk belajar serta memahami keseronokan mencari ilmu dengan pendekatan yang dilakukan Zahid.</p>
+    <p>Aizad merasakan dirinya mengalami perubahan dalam diri semenjak berguru baik akademik mahupun kehidupan dengan Zahid dan guru-guru di sekolah menyukai perubahan yang positif ini. Keputusan peperiksaan Aizad meraih 2A dan tiada subjek yang gagal, sebuah peningkatan berbanding keputusan peperiksaan yang teruk sebelumnya. Ibunya mengatakan katanya untuk mengembalikan barang-barang Aizad, akan tetapi Aizad hanya mengambil Ipod yang boleh membantunya kekal fokus semasa belajar, ibu memberikan telefon pintar sebagai bonus untuk usaha Aizad.</p>
+    <p>Hubungan Zahid dan Aizad semakin rapat bahkan Aizad merupakan individu yang dekat dengan keluarga Zahid. Dalam diam, Aizad menyukai Nasya, adik perempuan Zahid. Menjelang peperiksaan penting Tingkatan Tiga, Zahid dan Aizad mempersiapkan diri mereka dan Aizad fokus meningkatkan kefahaman dalam subjek yang dia agak lemah seperti Sains dan Matematik.</p>
+    <p>Tiba waktu peperiksaan mereka berdua berjaya menjawab hampir kesemua kertas peperiksaan hinggalah hari terakhir, Aizad mengalami masalah kesihatan namun dia tetap mengagahkan diri untuk turun ke dewan peperiksaan dan disebabkan kesakitan yang ditanggung, fokusnya pada kertas peperiksaan teralih hingga tertidur. Seseorang dalam bilik peperiksaan meneriak akibat tidak tahan dengan sakit perut, yang tak lain tak bukan adalah Zahid. Aizad terbangun akibat jeritan Zahid dan menyedari dirinya cuma ada 25 minit untuk menjawab kesemua soalan dan dia berjaya melakukannya.</p>
+    <p>Aizad akhirnya mendapatkan barangannya setelah selesai peperiksaan dan sejak detik itu Zahid tidak lagi berhubung dengan Aizad. Ketika hari keputusan diumumkan, MISI Aizad berjaya dengan mengenggam 8A. Zahid tidak hadir pada hari itu, bahkan ketika Aizad ke rumahnya mereka sekeluarga telah berpindah. Aizad menyedari Zahid berpura-pura sakit demi mengejutkan dirinya untuk bangun ketika hari peperiksaan akhir. Mereka tidak lagi berhubung selepas itu.</p>
+</section>
+
+</body>
+</html>
