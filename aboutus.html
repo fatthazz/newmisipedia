@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Misipedia</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* White background */
+            color: #333; /* Dark text for contrast */
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-image: url(image/hero.png); /* Replace with your hero image URL */
+            background-size: cover;
+            background-position: center;
+            color: white; /* White text */
+            padding: 25px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 15px 0;
+        }
+        nav a {
+            margin: 0 20px;
+            color: white; /* White links */
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            text-decoration: underline;
+            color: #ffe0b2; /* Light orange on hover */
+        }
+        h1 {
+            font-size: 2.5em; /* Larger title */
+            margin: 0; /* Remove default margin */
+        }
+        h3 {
+            font-size: 1.5em; /* Subtitle size */
+            margin: 10px 0; /* Space around subtitle */
+        }
+        .story {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            text-align: justify; /* Justify text for better readability */
+        }
+        .story img {
+            display: block; /* Center image */
+            margin: 0 auto 20px; /* Center image and add space below */
+            max-width: 100%; /* Responsive image */
+            height: auto; /* Maintain aspect ratio */
+        }
+        .story h2 {
+            text-align: center; /* Center the story title */
+            color: #ff5722; /* Orange color for the title */
+        }
+        .contact-form {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #ff5722; /* Orange button */
+            color: white; /* White text */
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #e64a19; /* Darker orange on hover */
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                margin: 5px 0;
+            }
+            .story {
+                padding: 15px; /* Adjust padding for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MISIPEDIA</h1>
+    <h3>Semua tentang MISI!</h3>
+    <nav>
+        <a href="#misi-characters">Characters</a>
+        <a href="#misi-worlds">Worlds</a>
+        <a href="#misi-stories">Stories</a>
+        <a href="#misi-fan-art">Fan Art</a>
+    </nav>
+</header>
+
+<section class="story">
+    <img src="image/anon.png" alt="Misi 8A"> <!-- Replace with your image URL -->
+    <h2><span class="highlight">Tentang</span> Misipedia</h2>
+    <p>Misipedia adalah portal tentang siri IP yang dimulakan oleh Nazry Salam dan Afiq Salam pada 2010. Anon adalah misipedian anda sedang membangun laman ini.</p>
+</section>
+
+<section class="contact-form">
+    <h2>Contact Us</h2>
+    <form netlify>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+</body>
+</html>
